@@ -43,7 +43,7 @@ body {
 @media (min-width: 768px) {
     .contenido {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 45% 55%;
         grid-template-rows: repeat(2, 1fr);
         gap: 2rem;
     }
@@ -75,7 +75,7 @@ body {
     display: block;
     background-color: var(--Light-Grayish-Magenta);
     padding: 1.5rem;
-    width: 95%;
+    width: 75%;
     margin: 1rem 0;
     border-radius: 1rem;
     text-align: center;
